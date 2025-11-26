@@ -1,4 +1,7 @@
 # Algoritma Kruskal Optimize dengan predessecor list dan rank union
+import sys
+sys.setrecursionlimit(1000000)
+
 class Edge:
     def __init__(self, source, destination, weight):
         self.source = source
