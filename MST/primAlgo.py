@@ -1,6 +1,5 @@
 # Prim Algorithm Optimize dengan PQ
-import heapq, sys
-sys.setrecursionlimit(1000000)
+import heapq
 
 class Edge:
     def __init__(self, source, destination, weight):
